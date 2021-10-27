@@ -1,2 +1,6 @@
 # CMDLine-Builder
-Scripts to compile software direct from your command line if you have the pre-requisites configured (ENG). Scripts de linha de comando para compilar projeto automaticamente se você tiver os pré-requisitos atendidos (PTBR)
+
+Bem vindo(a)!
+Nesse repo, colocarei scripts pessoais para facilitar a compilação dos softwares que uso regularmente.
+
+- Ryujinx (Nintendo Switch) v1.0: Baixa e compila o código mais recente utilizando o .NET SDK 6.0 Preview
