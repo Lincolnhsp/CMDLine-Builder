@@ -36,9 +36,13 @@ TIMEOUT /T 3 /NOBREAK
 
 :: Limpar os símbolos da compilação, desnecessários para o Relase.
 Echo Limpando simbolos da compilacao (PDB)
+del .\Ryujinx\bin\Release\net6.2\win10-x64\publish\*.pdb /F /Q
+del .\Ryujinx\bin\Release\net6.1\win10-x64\publish\*.pdb /F /Q
 del .\Ryujinx\bin\Release\net6.0\win10-x64\publish\*.pdb /F /Q
 TIMEOUT /T 3 /NOBREAK
 
 Echo Uma janela ira abrir com todos os arquivos do emulador, mova para onde desejar!
 TIMEOUT /T 3 /NOBREAK
+explorer .\Ryujinx\bin\Release\net6.2\win10-x64\publish\
+explorer .\Ryujinx\bin\Release\net6.1\win10-x64\publish\
 explorer .\Ryujinx\bin\Release\net6.0\win10-x64\publish\
